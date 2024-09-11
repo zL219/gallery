@@ -10,3 +10,12 @@ min_version = "0.121.2"
 [author]
   name = "Nico Kaiser"
   homepage = "https://kaiser.me"
+
+[params]
+  [params.socialIcons]
+    facebook = "https://www.facebook.com/"
+    instagram = "https://www.instagram.com/"
+    github = "https://github.com/nicokaiser/hugo-theme-gallery/"
+    youtube = "https://www.youtube.com/"
+    email = "mailto:user@example.com"
+    linkedin = "https://linkedin.com/"
