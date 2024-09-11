@@ -5,4 +5,7 @@ title: Featured Album
 featured: true
 private: true # do not show in list, only as feature
 description: This is a featured album. It is private, so it is only shown on the homepage.
+resources:
+  - src: yekong.jpg
+    title: Brown tabby cat on white stairs by Alexander London
 ---
