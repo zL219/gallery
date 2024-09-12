@@ -7,4 +7,10 @@ menu:
     weight: 90
 ---
 
-This is a demonstration site for the Hugo Gallery theme.
+This is a sharing website for Lythriel's personal photography works
+
+
+### Contact
+
+- QQ: 1692892052
+- Email: llzy21@qq.com
