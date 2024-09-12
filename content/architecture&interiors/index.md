@@ -7,4 +7,8 @@ weight: 3
 featured_image: mina-rad-V94CguEmeos-unsplash.jpg
 params:
   theme: dark
+resources:
+  - src: a1.jpg
+  - src: a2.jpg
+
 ---
