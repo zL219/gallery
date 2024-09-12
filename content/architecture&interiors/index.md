@@ -3,7 +3,7 @@ description: Architecture is a reflection of the times, and this category refers
 menus: "main"
 title: Architecture & Interiors
 #type: gallery
-weight: 2
+weight: 3
 featured_image: mina-rad-V94CguEmeos-unsplash.jpg
 params:
   theme: dark

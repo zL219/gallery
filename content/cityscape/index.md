@@ -6,7 +6,7 @@ sort_by: Name # Exif.Date
 sort_order: desc
 title: Cityscape
 #type: gallery
-weight: 4
+weight: 1
 params:
   theme: dark
 resources:

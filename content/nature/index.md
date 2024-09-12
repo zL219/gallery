@@ -6,7 +6,7 @@ sort_by: Name # Exif.Date
 sort_order: desc
 title: Nature
 #type: gallery
-weight: 3
+weight: 2
 params:
   theme: dark
 resources:
