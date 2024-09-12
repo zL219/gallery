@@ -9,20 +9,22 @@ title = "Gallery"
 
 [params]
   defaultTheme = "dark"
-  description = "Example site for hugo-theme-gallery"
+  description = "A website for sharing photography works."
   title = "My Gallery"
   [params.author]
     email = "llzy21@qq.com"
     name = "Lythriel"
   [params.socialIcons]
-    facebook = "https://www.facebook.com/"
-    instagram = "https://www.instagram.com/"
-    github = "https://github.com/"
-    youtube = "https://www.youtube.com/"
+    #facebook = "https://www.facebook.com/"
+    #instagram = "https://www.instagram.com/"
+    #github = "https://github.com/"
+    #youtube = "https://www.youtube.com/"
     email = "mailto:llzy21@qq.com"
+    fivehpx = "https://500px.com.cn/Llzy21"
     #website = "https://example.com"
     #mastodon = "https://example.com"
     #pixelfed = "https://example.com"
+    tiktok = "https://www.douyin.com/user/MS4wLjABAAAABptCD0OTPV5okRGo_Lef6IK7DkpJRiBlUQyZddyub5c"
 
 [outputs]
   home = ["HTML", "RSS"]
@@ -46,7 +48,7 @@ title = "Gallery"
 [menu]
   [[menu.footer]]
     name = "GitHub"
-    url = "https://github.com/nicokaiser/hugo-theme-gallery/"
+    url = "https://github.com/zL219/gallery"
     weight = 3
 
 [services]
