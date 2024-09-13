@@ -1,6 +1,6 @@
 ---
 description: This category mainly captures the scenery of cities.
-featured_image: azzedine-rouichi-ZS_XuDZmxpM-unsplash.jpg
+featured_image: 27.jpg
 menus: "main"
 sort_by: Name # Exif.Date
 sort_order: desc
