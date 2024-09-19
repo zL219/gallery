@@ -1,3 +1,4 @@
+theme = ['gallery']
 copyright = "© Lythriel"
 defaultContentLanguage = "en"
 disableKinds = ["taxonomy", "term"]
