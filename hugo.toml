@@ -39,18 +39,27 @@ title = "Gallery"
     disableLatLong = true
     includeFields = "ImageDescription|Orientation"
 
+[menu]
+  [[menu.footer]]
+    name = "Rss"
+    url = "/index.xml"
+    weight = 3
+  [[menu.footer]]
+    name = "SiteMap"
+    url = '/sitemap.xml'
+    weight = 4
+
+[services]
+  [services.rss]
+    limit = 100
+
+[sitemap]
+  changeFreq = ''
+  filename = 'sitemap.xml'
+  priority = -1
+
 [module]
   [module.hugoVersion]
     min = "0.121.2"
   [[module.imports]]
     path = "github.com/nicokaiser/hugo-theme-gallery/v4"
-
-[menu]
-  [[menu.footer]]
-    name = "GitHub"
-    url = "https://github.com/zL219/gallery"
-    weight = 3
-
-[services]
-  [services.rss]
-    limit = 100
