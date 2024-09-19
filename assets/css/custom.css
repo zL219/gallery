@@ -1,4 +1,14 @@
-/* custom.css */
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Lobster&display=swap');
+h1 {
+  font-family: "Lobster", sans-serif;
+}
+html {
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+
+/* colors */
 :root {
   --surface-1-light: #ffffff;
   --surface-2-light: #dee2e6;
@@ -9,6 +19,29 @@
   --text-1-dark: #f8f9fa;
   --text-2-dark: #868e96;
 }
+
+/* menu */
+header > .btn > img.avatar {
+  margin-inline-end: 1rem;
+  border-radius: 999px;
+}
+body > menu {
+  border: 2px solid var(--text-2);
+  border-radius: 1rem;
+  margin: 2rem auto 0;
+  padding: 0.5rem 0;
+  overflow-y: hidden;
+  transition: all 0.3s;
+  max-height: 283px;
+}
+menu.hidden {
+  display: block;
+  max-height: 0;
+  padding: 0;
+  border-width: 0px;
+}
+
+/* home page */
 .card > img:hover, .card figure > img:hover {
     filter: brightness(1.2);
 }
