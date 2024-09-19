@@ -12,10 +12,6 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-22.04
-    env:
-      # Define the env variable here, so that Hugo's cache dir is now predictible
-      # in your workflow and doesn't depend on the Hugo's version you're using.
-      HUGO_CACHEDIR: /tmp/hugo_cache 
 
     steps:
       - uses: actions/checkout@v4
@@ -23,11 +19,6 @@ jobs:
           submodules: true  # fetch Hugo themes (true OR recursive)
           fetch-depth: 0    # fetch all history for .GitInfo and .Lastmod
           lfs: true         # enable downloading Git-LFS files
-          # For caches
-          path: ${{ env.HUGO_CACHEDIR }} # <- Use the same env variable just right here
-          key: ${{ runner.os }}-hugomod-${{ hashFiles('**/go.sum') }}
-          restore-keys: |
-            ${{ runner.os }}-hugomod-
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
@@ -35,16 +26,16 @@ jobs:
           hugo-version: 'latest'
           extended: true # only extended version support rendering scss
 
-      - name: Build
-        run: hugo --minify
-
       - name: Cache Hugo resources
         uses: actions/cache@v3
         with:
           path: resources/_gen
-          key: ${{ runner.os }}-hugo-${{ hashFiles('**/*.html', '**/*.md', '**/*.scss') }} # 生成唯一的缓存键
+          key: ${{ runner.os }}-hugo-${{ hashFiles('**/*.html', '**/*.md', '**/*.scss') }}
           restore-keys: |
             ${{ runner.os }}-hugo-
+
+      - name: Build
+        run: hugo --minify
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
