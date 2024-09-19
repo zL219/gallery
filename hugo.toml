@@ -27,6 +27,7 @@ title = "Gallery"
     #mastodon = "https://example.com"
     #pixelfed = "https://example.com"
     tiktok = "https://www.douyin.com/user/MS4wLjABAAAABptCD0OTPV5okRGo_Lef6IK7DkpJRiBlUQyZddyub5c"
+    rss = "/index.xml"
 
 [outputs]
   home = ["HTML", "RSS"]
@@ -42,10 +43,6 @@ title = "Gallery"
     includeFields = "ImageDescription|Orientation"
 
 [menu]
-  [[menu.footer]]
-    name = "Rss"
-    url = "/index.xml"
-    weight = 3
   [[menu.footer]]
     name = "SiteMap"
     url = '/sitemap.xml'
