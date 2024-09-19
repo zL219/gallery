@@ -1,13 +1,13 @@
-# Hugo Gallery Theme
+# Lythriel Gallery
 
-A very simple and opinionated photo gallery theme for Hugo.
+A very simple and opinionated photo gallery.
 
-- [Demo](https://nicokaiser.github.io/hugo-theme-gallery/)
-- [Example site source](https://github.com/nicokaiser/hugo-theme-gallery/tree/main/exampleSite)
+- [Visit](https://lythriel.cn/)
+- [Original theme repository](https://github.com/nicokaiser/hugo-theme-gallery)
 
 ---
 
-![Screenshot](https://github.com/nicokaiser/hugo-theme-gallery/raw/main/images/screenshot.jpg)
+![Screenshot](images/thumnail.png)
 
 ---
 
