@@ -14,6 +14,7 @@ title = "Gallery"
   [params.author]
     email = "llzy21@qq.com"
     name = "Lythriel"
+    avatar = "https://q1.qlogo.cn/g?b=qq&nk=1692892052&s=640"
   [params.socialIcons]
     #facebook = "https://www.facebook.com/"
     #instagram = "https://www.instagram.com/"
