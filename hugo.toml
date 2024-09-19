@@ -5,7 +5,7 @@ disableKinds = ["taxonomy", "term"]
 enableRobotsTXT = true
 languageCode = "en"
 timeZone = "Europe/Berlin"
-timeout = "200s"
+timeout = "250s"
 title = "Gallery"
 
 [params]
