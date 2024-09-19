@@ -9,6 +9,8 @@
   },
   "private": "true",
   "scripts": {
+    "build": "hugo --gc --minify",
+    "dev": "hugo server",
     "prettier": "prettier . --write",
     "lint": "stylelint assets/css/*.{css,scss}"
   },
