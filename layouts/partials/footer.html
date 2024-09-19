@@ -3,7 +3,7 @@
   <section>
     {{ .Site.Copyright }}
     {{ range .Site.Menus.footer }}
-      <a {{ with .Params.rel -}}rel="{{ . }}"{{ end -}} href="{{ .URL }}">
+      <a {{ with .Params.rel -}}rel="{{ . }}"{{ end -}} href="{{ .URL }}" target="_blank">
         {{ .Name }}
       </a>
     {{ end }}
